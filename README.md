@@ -16,16 +16,18 @@ This project aims to analyze student responses in Wooclap events and reconstruct
 📁 Repository Structure
 
 📂 Wooclap_data_analyst/ <br>
-│── 📂 input/                       # Raw input data files <br>
-│   ├── metadata.csv                    # Column descriptions of sample.csv <br>
-│   ├── sample.csv                      # Raw event data <br>
-│── 📂 output/                      # Results and visualizations <br>
-│   ├── graph_answers_per_session.png   # Graph: Answers per session <br>
-│   ├── graph_sessions_per_student.png  # Graph: Sessions per student per month <br>
-│── 📂 src/                         # Python scripts/Jupyter notebook for data processing <br>
-│── 📜 README.md                    # Project documentation <br>
-│── 📜 .gitignore                   # Exclude unnecessary files <br>
-│── 📜 requirements.txt             # Dependencies <br>
+│── 📂 input/ #------------- Raw input data files <br>
+│   ├── metadata.csv <br>
+│   ├── sample.csv  <br>
+│── 📂 output/ #------------ Results and visualizations <br>
+│   ├── graph_answers_per_session.png <br>
+│   ├── graph_sessions_per_student.png <br>
+│── 📂 src/ #--------------- Python scripts/Jupyter notebook for data processing <br>
+│── 📜 README.md #---------- Project documentation <br>
+│── 📜 .gitignore #--------- Exclude unnecessary files <br>
+│── 📜 requirements.txt #--- Dependencies <br>
+
+
 
 📄 Contenu des Données
 
