@@ -29,7 +29,7 @@ This project aims to analyze student responses in Wooclap events and reconstruct
 
 
 
-📄 Contenu des Données
+📄 Content of the input Folder
 
 The dataset consists of two primary files: metadata.csv and sample.csv.
 
