@@ -1,10 +1,10 @@
-📊 Wooclap - Data Analyst
+<h1>📊 Wooclap - Data Analyst</h1>
 
-📌 Description
+<h2>📌 Description</h2>
 
 This project aims to analyze student responses in Wooclap events and reconstruct session groupings. The dataset lacks explicit session identifiers, so we will infer them based on time and event data.
 
-🎯 Objectives
+<h2>🎯 Objectives</h2>
 
 1. Reconstruct sessions from sample.csv based on event logs.
 
@@ -13,7 +13,7 @@ This project aims to analyze student responses in Wooclap events and reconstruct
     - Monthly session participation of the top 10% most active students.
 3. Design a data pipeline to automate this analysis for recurring use.
 
-📁 Repository Structure
+<h2>📁 Repository Structure</h2>
 
 📂 Wooclap_data_analyst/ <br>
 │── 📂 input/ #------------- Raw input data files <br>
@@ -27,9 +27,7 @@ This project aims to analyze student responses in Wooclap events and reconstruct
 │── 📜 .gitignore #--------- Exclude unnecessary files <br>
 │── 📜 requirements.txt #--- Dependencies <br>
 
-
-
-📄 Content of the input Folder
+<h2>📄 Content of the input Folder</h2>
 
 The dataset consists of two primary files: metadata.csv and sample.csv.
 
@@ -51,17 +49,21 @@ This file contains the raw data for each user action during a Wooclap event. Eac
 
 These datasets provide a foundation for analyzing user engagement, event participation, and reconstructing sessions based on the recorded actions.
 
-🚀 Installation & Usage
+<h2>📄 Content of the src Folder</h2>
 
-pip install -r requirements.txt
-python src/main.py  # Runs the session reconstruction & analysis
+............
 
-📊 Expected Outputs
+<h2>📊 Expected Outputs</h2>
 
 graph_answers_per_session.png: Number of answers per session.
 graph_sessions_per_student.png: Monthly participation of top 10% active students.
 
-🔧 Data Pipeline
+<h2>🔧 Data Pipeline</h2>
 
 A conceptual data pipeline will be designed to efficiently process raw data into meaningful insights using appropriate technologies.
+
+<h2>🚀 Installation & Usage</h2>
+
+pip install -r requirements.txt
+python src/main.py  # Runs the session reconstruction & analysis
 
