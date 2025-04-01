@@ -1,0 +1,4 @@
+jupyter
+pandas
+
+# créer le requirement avec pip freeze > requirements.txt
